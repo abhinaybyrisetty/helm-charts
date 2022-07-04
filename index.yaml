@@ -1,0 +1,40 @@
+apiVersion: v1
+entries:
+  spinnaker:
+  - apiVersion: v1
+    appVersion: 1.26.6
+    created: "2022-07-04T11:33:28.321895552Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.13.1
+    - condition: minio.enabled
+      name: minio
+      repository: ""
+      version: 8.0.9
+    description: Open source, multi-cloud continuous delivery platform for releasing
+      software changes with high velocity and confidence.
+    digest: 757ba11a61364e608df1dc163fc8a897f53d1a5249984933e5e7f6f5474de334
+    home: http://spinnaker.io/
+    icon: https://pbs.twimg.com/profile_images/669205226994319362/O7OjwPrh_400x400.png
+    maintainers:
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: ezimanyi@google.com
+      name: ezimanyi
+    - email: hello@dwardu.com
+      name: dwardu89
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: abhinay.byrisetty@hotmail.com
+      name: abhinaybyrisetty
+    name: spinnaker
+    sources:
+    - https://github.com/spinnaker
+    - https://github.com/abhinaybyrisetty/helm-charts
+    - https://github.com/viglesiasce/images
+    urls:
+    - https://github.com/abhinaybyrisetty/helm-charts/releases/download/spinnaker-2.2.12/spinnaker-2.2.12.tgz
+    version: 2.2.12
+generated: "2022-07-04T11:33:28.321909653Z"
