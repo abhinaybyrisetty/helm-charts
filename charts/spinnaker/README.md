@@ -6,6 +6,8 @@
 This chart will provision a fully functional and fully featured Spinnaker installation
 that can deploy and manage applications in the cluster that it is deployed to.
 
+After stable helm repo was deprecated, Spinnaker helm repo is not maintained by community. Just hosting this repo for the benefit of the community. Please open a PR if you see any scope for improvements/corrections
+
 Redis and Minio are used as the stores for Spinnaker state.
 
 For more information on Spinnaker and its capabilities, see it's [documentation](http://www.spinnaker.io/docs).
